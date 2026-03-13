@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+@Component({
+selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+title = 'Angular Application’;
+enter()
+{
+console.log("The Mouse entered paragraph");
+} leave() {
+console.log("The Mouse left paragraph");
+} over() {
+console.log("The Mouse is over paragraph");
+}
+}
